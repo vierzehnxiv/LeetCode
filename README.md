@@ -7,8 +7,11 @@
 Jedes Problem liegt in einem eigenen Ordner mit folgender Struktur:
 
 Problem-Name/
+
 ├── description.md # Aufgabenstellung (optional ergänzt oder übersetzt)
+
 ├── Lösung.cpp # Meine C++-Lösung
+
 └── test.cpp # Lokaler Test zum Validieren der Lösung
 
 ## 🚀 Ziel
