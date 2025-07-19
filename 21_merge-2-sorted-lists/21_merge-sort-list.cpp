@@ -1,3 +1,5 @@
+#include <algorithm>
+
 
 // Definition for singly-linked list.
 struct ListNode {
@@ -52,7 +54,7 @@ public:
         }
 
         if (list1->val > list2->val) {
-            swap(list1, list2);
+            std::swap(list1, list2);
         }
 
         list1->next = mergeTwoLists(list1->next, list2);
